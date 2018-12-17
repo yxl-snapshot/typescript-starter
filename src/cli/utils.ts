@@ -1,6 +1,5 @@
 import chalk from 'chalk';
 import { existsSync } from 'fs';
-import gradient from 'gradient-string';
 import validateNpmPackageName from 'validate-npm-package-name';
 export enum Runner {
   Npm = 'npm',
@@ -85,8 +84,8 @@ _                             _      _          _            _
 `;
 
   return columns && columns >= 85
-    ? chalk.bold(gradient.mind(ascii))
+    ? chalk.bold(ascii)
     : columns && columns >= 74
-    ? chalk.bold(gradient.mind(asciiSmaller))
+    ? chalk.bold(asciiSmaller)
     : `\n${chalk.cyan.bold.underline('typescript-starter')}\n`;
 }

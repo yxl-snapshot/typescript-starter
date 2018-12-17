@@ -52,7 +52,6 @@ export async function typescriptStarter(
     'cz-conventional-changelog',
     'gh-pages',
     'npm-run-all',
-    'npm-scripts-info',
     'nsp',
     'nyc',
     'opn-cli',
