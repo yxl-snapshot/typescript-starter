@@ -66,7 +66,7 @@ export async function typescriptStarter(
   ];
 
   // dependencies to retain for Node.js applications
-  const nodeKeptDeps: ReadonlyArray<string> = ['sha.js'];
+  const nodeKeptDeps: ReadonlyArray<string> = [];
 
   const filterAllBut = (
     keep: ReadonlyArray<string>,
