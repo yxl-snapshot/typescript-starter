@@ -56,7 +56,6 @@ export async function typescriptStarter(
     'ava',
     'codecov',
     'cz-conventional-changelog',
-    'gh-pages',
     'npm-run-all',
     'nsp',
     'nyc',
