@@ -4,7 +4,13 @@ import del from 'del';
 import { readFileSync, renameSync, writeFileSync } from 'fs';
 import ora from 'ora';
 import { join } from 'path';
-import replace from 'replace-in-file';
+
+// Disable replace function
+//import replace from 'replace-in-file';
+async function replace(...args: any) {
+  console.log(`Replace function called! args: ${args}`);
+}
+
 import { Placeholders, Tasks } from './tasks';
 import { Runner, TypescriptStarterOptions } from './utils';
 

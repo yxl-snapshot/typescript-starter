@@ -3,5 +3,4 @@
 // so its purpose is just to squelch noImplicitAny errors.
 declare module 'github-username';
 declare module 'md5-file';
-declare module 'replace-in-file';
 declare module 'validate-npm-package-name';
